@@ -1,0 +1,142 @@
+body,
+.mui-content {
+    background: #fff;
+    font-size: 14px;
+}
+
+.my-header,
+.my-footer {
+    background: #006699;
+}
+
+.my-header h1 {
+    color: #fff;
+}
+
+.my-header a {
+    color: #fff;
+}
+
+.my-footer .mui-tab-item {
+    color: #fff;
+}
+
+.footer .mui-tab-item.mui-active {
+    color: darkorange;
+}
+
+
+/* content */
+
+.nav-links {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+}
+
+.nav-links a {
+    display: block;
+    width: 33.33%;
+    float: left;
+}
+
+.nav-links a img {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.brand {
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    width: 100%;
+}
+
+.brand ul {
+    display: block;
+    width: 100%;
+}
+
+.brand ul li {
+    float: left;
+    display: block;
+    width: 25%;
+}
+
+.brand ul li img {
+    width: 100%;
+}
+
+.product {
+    padding: 10px;
+}
+
+.product .title {
+    width: 100%;
+}
+
+.product ul {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.product ul li {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.product ul li a {
+    display: block;
+    overflow: hidden;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.product ul li img {
+    width: 100%;
+}
+
+.product .name {
+    display: block;
+    color: #8f8f94;
+    line-height: 18px;
+    height: 40px;
+    text-align: center;
+    padding: 6px;
+}
+
+.product p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.product p span:first-child {
+    color: #ff3300;
+}
+
+.product p span:last-child {
+    text-decoration: line-through;
+    margin-left: 2px;
+    color: #ccc;
+}
+
+.product .buy-now {
+    display: block;
+    height: 32px;
+    width: 80px;
+    background: #006699;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 4px;
+}

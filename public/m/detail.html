@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="assets/zepto/zepto.min.js"></script>
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="assets/artTemplate/template-native.js"></script>
+    <link rel="stylesheet" href="assets/fontAwesome/css/font-awesome.min.css">
+    <script src="assets/mui/js/mui.min.js"></script>
+    <script src="js/public.js"></script>
+    <link rel="stylesheet" href="css/detail.css">
+    <script src="js/public.js"></script>
+    <script src="js/detail.js"></script>
+    <title>商品详情</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="mui-bar mui-bar-nav my-header">
+        <h1 class="mui-title">商品详情</h1>
+        <a href="search.html" class="mui-icon mui-icon-search mui-pull-right"></a>
+    </header>
+    <!-- /header -->
+    <!-- footer -->
+    <nav class="mui-bar mui-bar-tab my-footer">
+        <a class="mui-tab-item mui-active" href="index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item" href="category.html">
+            <span class="mui-icon mui-icon-bars"></span>
+            <span class="mui-tab-label">分类</span>
+        </a>
+        <a class="mui-tab-item" href="cart.html">
+            <span class="mui-icon fa fa-shopping-cart
+                "></span>
+            <span class="mui-tab-label ">购物车</span>
+
+        </a>
+        <a class="mui-tab-item" href="user.html">
+            <span class="mui-icon mui-icon-person"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+
+    </nav>
+    <div class="mui-content">
+
+        <div id="product-box">
+            <div class="mui-slider">
+                <div class="mui-slider-group">
+                    <div class="mui-slider-item">
+                        <img src="images/banner1.png" />
+                    </div>
+                    <div class="mui-slider-item">
+                        <img src="images/banner1.png" />
+                    </div>
+                    <div class="mui-slider-item">
+                        <img src="images/banner1.png" />
+                    </div>
+                    <div class="mui-slider-item">
+                        <img src="images/banner1.png" />
+                    </div>
+                    <div class="mui-slider-item">
+                        <img src="images/banner1.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="product-title">
+                移动乐淘移动乐淘移动乐淘 移动乐淘移动乐淘移动乐淘 移动乐淘移
+            </div>
+            <div class="price">
+                价格：
+                <span class="now">¥1000</span>
+                <span class="old">¥100</span>
+            </div>
+            <div class="size">
+                尺码：
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+                <span>35</span>
+            </div>
+            <div class="num">
+                <div class="mui-pull-left">数量：</div>
+                <div class="mui-pull-left selectNum">
+                    <span id="reduce">-</span>
+                    <input type="text" value="1" id="inp">
+                    <span id="increase">+</span>
+                </div>
+                <div class="mui-pull-left">剩余：44件</div>
+            </div>
+
+            <div class="btns">
+                <a href="cart.html">查看购物车</a>
+                <span id="addCart">加入购物车</span>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- /footer -->
+    <script type="text/template" id="productTpls">
+
+    </script>
+</body>
+
+</html>

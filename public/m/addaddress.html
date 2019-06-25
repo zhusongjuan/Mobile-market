@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="assets/artTemplate/template-native.js"></script>
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="assets/mui/css/mui.picker.css">
+    <link rel="stylesheet" href="assets/mui/css/mui.poppicker.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="assets/fontAwesome/css/font-awesome.min.css">
+    <script src="assets/mui/js/mui.min.js"></script>
+    <script src="assets/mui/js/mui.picker.js"></script>
+    <script src="assets/mui/js/mui.poppicker.js"></script>
+
+    <script src="js/public.js"></script>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/addaddress.js"></script>
+    <script src="js/city.js"></script>
+
+    <title>添加收货地址</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="mui-bar mui-bar-nav my-header">
+        <h1 class="mui-title">添加收货地址</h1>
+        <a class=" mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    </header>
+    <!-- /header -->
+    <!-- footer -->
+    <nav class="mui-bar mui-bar-tab my-footer">
+        <a class="mui-tab-item mui-active" href="index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item" href="category.html">
+            <span class="mui-icon mui-icon-bars"></span>
+            <span class="mui-tab-label">分类</span>
+        </a>
+        <a class="mui-tab-item" href="cart.html">
+            <span class="mui-icon fa fa-shopping-cart
+                "></span>
+            <span class="mui-tab-label ">购物车</span>
+
+        </a>
+        <a class="mui-tab-item" href="user.html">
+            <span class="mui-icon mui-icon-person"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+    </nav>
+    <!-- /footer -->
+    <!-- content -->
+
+    <!-- /content -->
+
+    <div class="mui-content">
+        <form class="mui-input-group" id="editForm">
+
+        </form>
+    </div>
+    <script type="text/template" id="editTpl">
+        <div class="mui-input-row">
+            <input type="text" class="mui-input-clear" placeholder="请输入收货人姓名" name="username" value="<%=recipients %>">
+        </div>
+        <div class="mui-input-row">
+            <input type="text" class="mui-input-clear" placeholder="请输入邮政编码" name="postCode" value="<%=postCode %>">
+        </div>
+        <div class="mui-input-row">
+            <input type="text" class="mui-input-clear" placeholder="请选择省市区" id="selectCity" readonly name="city" value="<%=address %>">
+        </div>
+        <div class="mui-input-row">
+            <input type="text" class="mui-input-clear" placeholder="请输入详细地址" name="detail" value="<%=addressDetail %>">
+        </div>
+        <div class="mui-button-row">
+            <button type="button" class="mui-btn mui-btn-primary" id="addAddress">确认</button>
+        </div>
+    </script>
+</body>
+
+</html>
